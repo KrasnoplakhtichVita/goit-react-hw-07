@@ -1,0 +1,48 @@
+.form {
+  width: 400px;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.label {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input {
+  margin-bottom: 15px;
+  width: 370px;
+}
+
+.form:hover,
+.input:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.49);
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  height: auto;
+  border: 1px solid #000;
+  background-color: #cac2c2;
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #7e4fd4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.49);
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
