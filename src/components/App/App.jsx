@@ -3,7 +3,7 @@ import "./App.css";
 import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
 import ContactList from "../ContactList/ContactList";
-import initialContacts from "../data/contactData.json";
+import initialContacts from "../../data/contactData.json";
 
 function App() {
   const [contacts, setContacts] = useState(() => {
